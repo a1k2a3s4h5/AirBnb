@@ -8,6 +8,10 @@ public class Normal {
 		 System.out.println("Hello i am akash patel 2");
 		 System.out.println("Hello i am akash patel 3");
 		 System.out.println("Hello i am not as sexy as you are..");
+		 System.out.println("Hello i am akash patel");
+		 System.out.println("Hello i am akash patel 2");
+		 System.out.println("Hello i am akash patel 3");
+		 System.out.println("Hello i am not as sexy as you are..");
 	}
 
 }
