@@ -9,7 +9,7 @@ import utils.SetUpBrowser;
 
 public class NavigateToFindPlacesPageScript {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		for(int i=1; i<=8;i++){
 			WebDriver driver=SetUpBrowser.openBrowser("Chrome");

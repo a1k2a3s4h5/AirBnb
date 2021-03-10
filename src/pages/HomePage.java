@@ -82,10 +82,11 @@ public class HomePage {
 		 */   	
     }
     
-    public void setBoxOfPlacesOfUdepur(WebDriver driver) {
+    public void setBoxOfPlacesOfUdepur(WebDriver driver) throws Exception {
     	List<WebElement> lst = driver.findElements(boxOfPlacesOfUdepur);
     	for(i=1;i<=8;i++) {
     		lst.get(i).click();
+    		//Thread.sleep(3000);
     		System.out.println("Print item of "+i+ "index");
     	}
     	
