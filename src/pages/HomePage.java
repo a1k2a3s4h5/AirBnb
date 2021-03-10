@@ -72,7 +72,7 @@ public class HomePage {
     	List<WebElement> lst = addUsers.findElements(By.xpath("//button[@aria-label='increase value']"));
 		/*
 		 * for(WebElement lst1:lst) { lst1.click(); }
-		 */
+		 */                                
     	lst.get(0).click();
     	lst.get(1).click();
     	lst.get(1).click();
