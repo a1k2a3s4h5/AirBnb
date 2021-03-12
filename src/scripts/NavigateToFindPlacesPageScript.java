@@ -25,6 +25,7 @@ public class NavigateToFindPlacesPageScript {
 			obj.setAddUsers();
 			obj.setSearchPlacesButton();
 			obj.setBoxOfPlacesOfUdepur(driver);
+			obj.setCookie();
 			driver.quit();
 		}
 		
