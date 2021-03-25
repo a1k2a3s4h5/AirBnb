@@ -2,6 +2,7 @@ package scripts;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
 
 import methods.Methods;
 import pages.HomePage;
@@ -9,7 +10,8 @@ import utils.SetUpBrowser;
 
 public class NavigateToFindPlacesPageScript {
 
-	public static void main(String[] args) throws Exception {
+	@Test
+	public void firstTest() throws Exception {
 		// TODO Auto-generated method stub
 		for(int i=1; i<=8;i++){
 			WebDriver driver=SetUpBrowser.openBrowser("Chrome");
